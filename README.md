@@ -68,3 +68,70 @@ jum = int(input("masukan nilai n : "))
 angkaDec = random.uniform(0, 0.5)
     print("Data ke", i, " = ", angkaDec)
 ```
+
+# Modul Pratikum 2
+## Latihan 1
+### Membuat program menentukan nilai akhir
+
+```python
+nama = input("Masukkan nama:")
+uts = input("Masukkan nilai UTS:")
+uas = input("Masukkan nilai UAS:")
+tugas = input("Masukkan nilai Tugas:")
+akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
+if akhir > 80:
+ huruf = "A"
+elif akhir > 70:
+ huruf = "B"
+elif akhir > 50:
+ huruf = "C"
+elif akhir > 40:
+ huruf = "D"
+else:
+ huruf = "E"
+
+print("\nNama :",nama)
+print("Nilai UTS :",uts)
+print("Nilai UAS :",uas)
+print("Nilai Tugas :",tugas)
+print("Nilai Akhir :",akhir)
+print("\nNilai Huruf :",huruf)
+print("Keterangan :",keterangan)
+```
+
+setelah di run, maka hasilnya seperti dibawah ini:
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-5.png)
+
+### Penjelasan :
+
+>Masukkan nilai yang sudah di tentukan oleh variabel "seperti nama, uts, uas,tugas"
+
+```python
+untuk, akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uts) * .4)
+```
+
+```python
+if akhir > 80: Jika nilai akhir diatas 80, maka huruf = 'A'
+```
+
+```python
+elif akhir > 70: dan jika nilai akhir diatas 70, maka huruf = 'B'
+```
+
+```python
+elif akhir > 50: dan jika nilai akhir diatas 50, maka huruf = 'C'
+```
+
+```python
+elif akhir > 40: dan jika nilai akhir diatas 40, maka huruf = 'D'
+```
+
+```python
+else: selain itu maka huruf = 'E'
+```
+
+```python
+cetak nilai akhir print
+```
