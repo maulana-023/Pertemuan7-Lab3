@@ -72,6 +72,7 @@ angkaDec = random.uniform(0, 0.5)
 # Modul Pratikum 2
 ## Latihan 1
 ### Membuat program menentukan nilai akhir
+<hr>
 
 ```python
 nama = input("Masukkan nama:")
@@ -106,32 +107,61 @@ setelah di run, maka hasilnya seperti dibawah ini:
 
 ### Penjelasan :
 
->Masukkan nilai yang sudah di tentukan oleh variabel "seperti nama, uts, uas,tugas"
+>Masukkan nilai yang sudah di tentukan oleh variabel seperti "nama, uts, uas,tugas"
 
 ```python
 untuk, akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uts) * .4)
 ```
-
 ```python
 if akhir > 80: Jika nilai akhir diatas 80, maka huruf = 'A'
 ```
-
 ```python
 elif akhir > 70: dan jika nilai akhir diatas 70, maka huruf = 'B'
 ```
-
 ```python
 elif akhir > 50: dan jika nilai akhir diatas 50, maka huruf = 'C'
 ```
-
 ```python
 elif akhir > 40: dan jika nilai akhir diatas 40, maka huruf = 'D'
 ```
-
 ```python
 else: selain itu maka huruf = 'E'
 ```
-
 ```python
 cetak nilai akhir print
+```
+
+## Latihan 2
+### Membuat program menampilkan status gaji karyawan
+<hr>
+
+```python
+gaji = int(input("Masukkan gaji:"))
+berkeluarga = (False, True)[input("Sudah berkeluarga? (Y/T)") == "Y"]
+punya_rumah = (False, True)[input("Punya rumah? (Y/T)") == "Y"]
+
+if gaji > 3000000:
+ print ("Gaji sudah diatas UMR")
+ if berkeluarga:
+ print ("Wajib ikutan asuransi dan menabung untuk pensiun")
+ else:
+ print ("Tidak perlu ikutan asuransi")
+
+ if punya_rumah:
+ print ("wajib bayar pajak rumah")
+ else:
+ print ("tidak wajib bayar pajak rumah")
+else:
+ print ("Gaji belum UMR")
+```
+setelah di run, maka hasilnya seperti dibawah ini:
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-6.png)
+
+### Penjelasan :
+
+```python
+gaji = int(input("Masukkan gaji:")) masukkan jumlah gaji.
+if gaji > 3000000: jika gaji diatas 3jt, maka print ("Gaji sudah diatas UMR") jika tidak, maka else: print("Gaji belum UMR") dan juga pengkondisian yang lainnya.
+maka data akan di cetak sesuai data yang di isi.
 ```
