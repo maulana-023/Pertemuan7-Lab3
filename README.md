@@ -184,7 +184,40 @@ setelah di run, maka hasilnya seperti dibawah ini:
 
 ### Penjelasan :
 ```python
-a = int(input('Masukkan bilangan A: ')) Masukkan bilangan A pada saat runtime, lakukan juga pada bilangan B dan C
+a = int(input('Masukkan bilangan A: ')) Masukkan bilangan A pada saat runtime,
+lakukan juga pada bilangan B dan C
+
 if a+b == c or b+c == a or c+a == b: jika a+b = c atau b+c = a atau c+a = b maka print('benar')
+
 selain itu maka else: print('salah')
 ```
+
+## TUGAS Pratikum 2
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-9.png)
+
+```python 
+A = int(input( 'Masukkan bilangan pertama: '))
+B = int(input('Masukkan bilangan kedua: '))
+C = int(input('Masukkan bilangan ketiga: '))
+
+if A > B and A > C:
+    print('Nilai', A, 'terbesar dari 3 bilangan yang di lnputkan')
+elif B > A and B > C:
+    print('Nilai', B, 'terbesar dari 3 bilangan yang di inputkan')
+else:
+    print ( 'Nilai', C, 'terbesar dari 3 bilangan yang di inputkan')
+```
+
+setelah di run, maka hasilnya seperti dibawah ini:
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-8.png)
+
+### penjelasan :
+A = int(input('Masukkan bilangan pertama: ')) masukkan nilai bilangan pertama, dan lakukan juga pada bilangan kedua dan ketiga pada saat runtime
+
+if A > B and A > C: jika A lebih besar dari B dan A lebih besar dari C maka print('Nilai', A, 'terbesar dari 3 bilangan yang di inputkan')
+
+elif B > A and B > C: dan jika B lebih besar dari A dan B lebih besar dari C maka print('Nilai', B, 'terbesar dari 3 bilangan yang di inputkan')
+
+else: selain itu maka print('Nilai', C, 'terbesar dari 3 bilangan yang di inputkan')
