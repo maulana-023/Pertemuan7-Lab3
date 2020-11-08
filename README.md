@@ -111,23 +111,17 @@ setelah di run, maka hasilnya seperti dibawah ini:
 
 ```python
 untuk, akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uts) * .4)
-```
-```python
+
 if akhir > 80: Jika nilai akhir diatas 80, maka huruf = 'A'
-```
-```python
+
 elif akhir > 70: dan jika nilai akhir diatas 70, maka huruf = 'B'
-```
-```python
+
 elif akhir > 50: dan jika nilai akhir diatas 50, maka huruf = 'C'
-```
-```python
+
 elif akhir > 40: dan jika nilai akhir diatas 40, maka huruf = 'D'
-```
-```python
+
 else: selain itu maka huruf = 'E'
-```
-```python
+
 cetak nilai akhir print
 ```
 
@@ -162,6 +156,35 @@ setelah di run, maka hasilnya seperti dibawah ini:
 
 ```python
 gaji = int(input("Masukkan gaji:")) masukkan jumlah gaji.
-if gaji > 3000000: jika gaji diatas 3jt, maka print ("Gaji sudah diatas UMR") jika tidak, maka else: print("Gaji belum UMR") dan juga pengkondisian yang lainnya.
+
+if gaji > 3000000: jika gaji diatas 3jt, maka print ("Gaji sudah diatas UMR") jika tidak,
+maka else: print("Gaji belum UMR") dan
+juga pengkondisian yang lainnya.
+
 maka data akan di cetak sesuai data yang di isi.
+```
+
+## Latihan 3
+### penggunaan kondisi OR program membandingkan 3 input bilangan, apabila penjumlahan 2 bilangan hasilnya sama dengan bilangan lainnya, maka cetak pernyataan “BENAR”
+<hr>
+
+```python
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+if a+b == c or b+c == a or c+a == b:
+ print("BENAR")
+else:
+ print("SALAH")
+```
+
+setelah di run, maka hasilnya seperti dibawah ini:
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-7.png)
+
+### Penjelasan :
+```python
+a = int(input('Masukkan bilangan A: ')) Masukkan bilangan A pada saat runtime, lakukan juga pada bilangan B dan C
+if a+b == c or b+c == a or c+a == b: jika a+b = c atau b+c = a atau c+a = b maka print('benar')
+selain itu maka else: print('salah')
 ```
