@@ -257,7 +257,7 @@ setelah di run, maka hasilnya seperti dibawah ini:
 
 ### Penjelasan :
 
--masukkan nilai a
+- masukkan nilai a
 
 - gunakan for untuk perulangan dari 1 sampai 8.Perulangan for disebut counted loop (perulangan yang terhitung)
 
