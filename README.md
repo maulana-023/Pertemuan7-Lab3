@@ -231,3 +231,45 @@ else: selain itu maka print('Nilai', C, 'terbesar dari 3 bilangan yang di inputk
 ![pratikum 1 Hasil Latihan 1](pict/gambar-10.png)
 
 ```python
+a = 1000000000
+for x in range (1,9):
+    if (x>=1 and x<=2):
+        b=a*0
+        print('Laba bulan ke-',x,' :',b)
+
+    if (x>=3 and x<=4):
+        c=a*0.1
+        print('Laba bulan ke-',x,' :',c)
+
+    if (x>=5 and x<=7):
+        d=a*0.5
+        print('Laba bulan ke-',x,' :',d)
+
+    if (x==8):
+        e=a*0.2
+        print('Laba bulan ke-',x,' :',e)
+total = b+b+c+c+d+d+d+e
+print('\nTotal : ', total)
+```
+setelah di run, maka hasilnya seperti dibawah ini:
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-11.png)
+
+### Penjelasan :
+
+-masukkan nilai a
+
+- gunakan for untuk perulangan dari 1 sampai 8.Perulangan for disebut counted loop (perulangan yang terhitung)
+
+- lalu gunakan if pertama untuk menentukan laba bulan ke 1 dan ke 2.masukan variabel (b) kalikan nilai (a) dengan data bulan 1 dan 2. cetak (x) dan (b)
+
+- lalu gunakan if kedua untuk menentukan laba bulan ke 3 dan ke 4.masukan variabel (b) kalikan nilai (a) dengan data bulan 3 dan 4. cetak (x) dan (c)
+
+- lalu gunakan if ketiga untuk menentukan laba bulan ke 5 sampai ke 7.masukan variabel (b) kalikan nilai (a) dengan data bulan 5 sampai 7. cetak (x) dan (d)
+
+- lalu gunakan if keempat untuk menentukan laba bulan ke 8.masukan variabel (b) kalikan nilai (a) dengan data bulan 8. cetak (x) dan (e)
+
+- lalu total keseluruhan.
+
+- cetak total
+
