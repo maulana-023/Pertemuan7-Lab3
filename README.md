@@ -193,6 +193,7 @@ selain itu maka else: print('salah')
 ```
 
 ## TUGAS Pratikum 2
+<hr>
 
 ![pratikum 1 Hasil Latihan 1](pict/gambar-9.png)
 
@@ -214,6 +215,7 @@ setelah di run, maka hasilnya seperti dibawah ini:
 ![pratikum 1 Hasil Latihan 1](pict/gambar-8.png)
 
 ### penjelasan :
+```python
 A = int(input('Masukkan bilangan pertama: ')) masukkan nilai bilangan pertama, dan lakukan juga pada bilangan kedua dan ketiga pada saat runtime
 
 if A > B and A > C: jika A lebih besar dari B dan A lebih besar dari C maka print('Nilai', A, 'terbesar dari 3 bilangan yang di inputkan')
@@ -221,3 +223,11 @@ if A > B and A > C: jika A lebih besar dari B dan A lebih besar dari C maka prin
 elif B > A and B > C: dan jika B lebih besar dari A dan B lebih besar dari C maka print('Nilai', B, 'terbesar dari 3 bilangan yang di inputkan')
 
 else: selain itu maka print('Nilai', C, 'terbesar dari 3 bilangan yang di inputkan')
+```
+
+## TUGAS Pratikum 3
+<hr>
+
+![pratikum 1 Hasil Latihan 1](pict/gambar-10.png)
+
+```python
